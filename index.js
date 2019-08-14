@@ -13,7 +13,7 @@ const getFirstSelector = function (selector) {
 
 const increaseRankBy = function (n) {
   const allRanks = document.querySelectorAll('.ranked-list li');
-  for (i = 0, i < allRanks.length, i++) {
+  for (i = 0; i < allRanks.length; i++) {
     allRanks[i].textContent = parseInt(allRanks[i].textContent) + n;
   }
 }
