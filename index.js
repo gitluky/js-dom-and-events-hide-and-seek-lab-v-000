@@ -8,5 +8,5 @@ const getFirstSelector = function (selector) {
 
  const deepestChild = function () {
    const allDivs = document.querySelectorAll('#grand-node div')[-1];
-   return everyDiv[everyDiv.length -1 ]
+   return everyDiv[everyDiv.length - 1];
  }
