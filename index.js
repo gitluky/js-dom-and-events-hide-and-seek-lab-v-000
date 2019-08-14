@@ -7,6 +7,6 @@ const getFirstSelector = function (selector) {
  }
 
  const deepestChild = function () {
-   const allDivs = document.querySelectorAll('#grand-node div');
-   debugger;
+   const allDivs = document.querySelectorAll('#grand-node div')[-1];
+   
  }
